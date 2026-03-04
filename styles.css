@@ -2,8 +2,44 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
+    color: red;
+}
+
+footer{
+    background-color: blue;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+header ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header ul li a:hover {
+    background-color: blue;
+    border-radius: 4px;
 }
 
 header{
-    background-color: blue;
+    color: blue;
+    background: red;
+    padding: 1rem
 }
+
+main {
+    margin: 1.5rem;
+}
+
+
